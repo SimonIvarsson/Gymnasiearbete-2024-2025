@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #00B686, #00C774);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    gap: 50px;         
+}
+
+#picture img {
+    width: 250px;
+    height: auto;
+}
+
+#container-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+#fname, #password, #btn-login {
+    display: block;
+    width: 500px;
+    height: 70px;
+    
+}
+
+#btn-login {
+    color: white;
+    background-color: #008566;
+    border: none;
+    margin-top: 20px;
+}
+
+#container-login, #btn-login {
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.text {
+    font-size: 12px;
+    display: flex;
+    display: inline-block;
+    padding-right: 340px;
+}
+
+#password-forgot {
+    display: flex;
+    display: inline-block;
+    font-size: 12px;
+    color: #008566;
+    text-decoration: none;
+}
+
+#fname, #lname {
+    font-size: 16px;
+}
+
+.text, #fname, #lname {
+    color: #9A9698;
+}
