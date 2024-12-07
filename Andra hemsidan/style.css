@@ -1,0 +1,10 @@
+/*    <!--Lägg denna i en mapp som heter "Andra hemsidan tillsammans med html-filen!"-->*/
+body {
+    background-image: linear-gradient(to right, #00B686, #00C774);
+    color: white;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
