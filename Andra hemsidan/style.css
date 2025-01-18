@@ -1,10 +1,14 @@
 /*    <!--Lägg denna i en mapp som heter "Andra hemsidan tillsammans med html-filen!"-->*/
 body {
     background-image: linear-gradient(to right, #00B686, #00C774);
+}
+
+.header {
     color: white;
     margin: 0;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
